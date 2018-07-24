@@ -1,0 +1,5 @@
+世界文件描述：
+model name="ground"  pose>1 2.3 -.1 0 0 0</pose>
+描述机器人初始位置和姿态
+visual name="ground_vis", geometry><box><size>10 10 .1</size></box> <material>< file://course.material
+描述地地图大小和高度 10X10 高度0.1 表面形状（course.meterial）

@@ -1,0 +1,7 @@
+course说明：
+launch文件内容：
+<model>获取MODEL名称设定初始位置
+<gazebo/empty>驱动空世界 设定世界名为course 并设定世界course.world/在该文件中引用 worldmeterial/接着引用地图course.png作为地图。
+<robot_description> 设定turtlebot模型描述文件
+<robot_state_publisher> 建立node发送状态信息（scan/tf）
+<spawn_urdf> 根据机器人描述文件建立robote_model进行显示 缺少会无法建立可视模型。
